@@ -1,0 +1,209 @@
+ul,li,a{
+    font-family: 'Krona One', sans-serif;
+}
+.nav-link:hover{
+   border-bottom: 2px #055a6a solid;
+}
+/* adding underline to the theme */
+.underline {
+    width: 45px;
+    height: 2px;
+    background: #055a6a ;
+    display: block;
+}
+.underline-inverse{
+    width: 80px;
+    height: 2px;
+    background: #fff ;
+    display: block;
+}
+.text-default{
+    color: #055a6a;
+}
+.mt-8{
+    margin-top:8px;
+}
+.mt-20{
+    margin-top:20px;
+}
+.about-text{
+    font-family: 'Krona One', sans-serif;
+}
+/* Button own style */
+.btn-default{
+    color: #fff;
+    background-color:#055a6a ;
+    border-color: #055a6a;
+    text-decoration: none;
+
+}
+.btn-default:hover {
+    color: #fff;
+    background-color:#012f38 ;
+    border-color: #012f38;
+  }
+  .btn-default-outline{
+    color: #fff;
+   
+    border-color:#fff ;
+
+}
+  .btn-default-outline:hover{
+    color: #055a6a;
+    background-color:#fff ;
+    border-color:#fff ;
+
+}
+
+  .bannerImages{
+      height:200px;
+      background: url('img/4.jpg') no-repeat scroll center 0/cover;
+      position: relative;
+      z-index: 1;
+      padding: 160px 0px;
+  }
+  .head_banner {
+    padding: 70px 0px;
+}
+.services{
+    text-transform:uppercase;
+    color:#fff;
+    text-shadow:#055a6a ;
+}
+.mt-15{
+    margin-top: 15px;
+}
+/* Card style */
+.own,.own1:hover{
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+.nav-pills,.nav-item{
+    text-decoration: none;
+    color: #055a6a;
+
+}
+.own{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 50px auto;
+    display: flex;
+    align-items: center;
+}
+.text-default{
+    color:#055a6a;
+}
+
+.bg{
+    background-color: #000000;
+}
+.carousel-caption{
+    position: absolute;
+    top:400px;
+    
+}
+.carousel-caption,h5{
+    font-size: large;
+
+}
+body{
+    height: auto;
+}
+.link{
+    display: inline;
+    text-decoration: none;
+}
+.link:hover{
+  cursor: pointer;
+  color:#055a6a;
+}
+.bg-default{
+    background-color:#055a6a;
+}
+.mission{
+    font-family: 'Piedra', cursive;
+}
+.promotic-font{
+    font-family: 'Krona One', serif;
+    color:grey;
+}
+.promotic{
+    font-family: 'Krona One', serif;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+   color:#fff;
+    
+}
+/* font modify */
+.fa-facebook-f {
+    color:#055a6a;
+}
+.fa-facebook-f:hover{
+    color:#fff;
+}
+.fa-twitter {
+    color:#055a6a;
+}
+.fa-twitter:hover{
+    color:#fff;
+}
+.fa-instagram {
+    color:#055a6a;
+}
+.fa-instagram:hover{
+    color:#fff;
+}
+.fa-youtube {
+    color:#41c2db;
+}
+.fa-youtube:hover{
+    color:#fff;
+}
+.footer-font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-img-overlay:hover{
+    cursor: pointer;
+    background-color:#055a6a;
+    opacity:0.5;
+   ;
+}
+.box{
+    width: 100%;
+    float: none;
+    border: 1px solid #dfdfdf;
+    background: #ffff;
+    padding: 30px 20px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.box:hover{
+
+    background: #012f38;
+    cursor: pointer;
+    color:#fff;
+}
+
+.box{
+    width: calc(100% / 3);
+    float: left;
+    background: #fff;
+    padding: 30px 30px 35px;
+    color:#012f38;
+   
+    text-align: center!important;
+    
+}
+.box_img{
+    width:30px;
+    height:30px;
+    color: #fff;
+}
+

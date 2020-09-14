@@ -1,0 +1,371 @@
+<!--Theme Name: Promotic Theme -->
+<!-- theme Description: Promotic Theme Business theme -->
+<!-- Author: Sandtech -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMOTIC </title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    
+    <!-- Bootstrap integration -->
+    <!-- CSS only -->
+            <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+             integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+            crossorigin="anonymous">
+         -->
+         <!-- Local bootstrap integration-->
+         <link rel="stylesheet" href="css/bootstrap.css">
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+            <!-- Css local integration -->
+            <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google font Embed link -->
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" 
+    rel="stylesheet">
+    <!-- font awesome link icon integration -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="fontawesome/webfonts/fa-brands-400.svg">
+       <!-- Own Js -->
+       <script src="js/main.js"></script>
+       <script src="js/jquery-2.2.4.min.js"></script>
+
+       <!-- logo slider bootstrap integration -->
+       <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+    <style>
+        h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+    </style>
+<body>
+        <!-- Navigation Bar -->
+
+        <!-- Navigation Bar -->
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar-example2">
+          <div class="container-fluid">
+            <a class="navbar-brand ml-4" href="#"><img src="img/logo.png" alt="" width="200px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item m-2">
+                  <a class="nav-link  "style="color:#055a6a" aria-current="page" href="english_index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown mt-2">
+                  <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    About us
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Mission</a></li>
+                    <li><a class="dropdown-item" href="#">Vision</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#"></a></li>
+                  </ul>
+                </li>
+               
+                <li class="nav-item m-2">
+                  <a class="nav-link" href="english_apropos.html">Services</a>
+                </li>
+                <li class="nav-item m-2">
+                  <a class="nav-link " href="english_apropos.html"  >Training</a>
+                </li>
+              
+                <li class="nav-item m-2">
+                  <a class="nav-link active" href="#"  >Customers</a>
+                </li>
+                <li class="nav-item m-2">
+                  <a class="nav-link " href="english_apropos.html"  >Popularization</a>
+                </li>
+                <li class="nav-item m-2">
+                  <a class="nav-link " href="apropos.html"  >Français</a>
+                </li>
+
+                
+              
+
+                <form class="d-flex form-group" action="#" method="POST">
+                  <input class="form-control m-2" type="search" placeholder="Recherche" aria-label="Search">
+                  <button class="btn btn-outline-default" type="submit"></button>
+                </form>
+              </ul>
+            
+            </div>
+          </div>
+        </nav>
+
+<!-- End of hearder section -->
+
+
+<div class="jumbotron">
+    <div class="display-4 text-center text-default" style="text-transform: uppercase;">
+        Our Customers
+    </div>
+</div>
+
+
+
+
+
+
+        <div class="container">
+ 
+
+<div class="container">
+  <h2></h2>
+   <section class="customer-logos slider">
+      <div class="slide"><img src="img/conatel-haiti-logo.png"></div>
+      <div class="slide"><img src="img/Promodev_logo.png"></div>
+      <div class="slide"><img src="img/eben.png"></div>
+
+   </section>
+</div>
+        </div>
+        <br>
+        <br>
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <<!-- Footer Section Start -->
+ <footer class="bg">
+  <br>
+  <img src="img/logo_reverse.png" alt="" class="img-fluid ml-2" width="300px">
+  <div class="container mt-2">
+      <div class="row">
+            <div class="col-md-3">
+
+               
+                <p class="text-white"><span style="color: #055a6a;">Firme de promotion et d'appui à l'exploitation des technologies de l'information et de la communication (TIC)</span> en Haïti. 
+                    La PromoTIC, bien consciente des opportunités et enjeux des technologies
+                     de l'information et de la communication pour tout le monde,</p>
+
+
+
+            </div>
+            <div class="col-md-3">
+                <h4 class="text-white">Liens Rapides</h4>
+                <ol>
+                 <p style=" cursor: pointer;" ><a  class="text-default"  href="">Mission</a> </p>
+                 <p style=" cursor: pointer;" ><a class="text-default" href="apropos.html">Apropos</a> </p>
+                 <p style=" cursor: pointer;" ><a class="text-default" href="apropos.html">Vision</a> </p>
+               
+                   
+
+                </ol>
+            </div>
+            <div class="col-md-3"><h4 class="text-white">Services</h4>
+              <a class="text-default footer-font"  style="text-decoration: none ; " href="#">Enquêtes sur les TIC</a><br>
+              <a  class="text-default footer-font"  style="text-decoration: none ; " href="#">Etude de projets technologiques</a><br>
+              <a class="text-default footer-font"  style="text-decoration: none ; " href="#">Numérisation des documents</a><br>
+              <a class="text-default footer-font"  style="text-decoration: none ; " href="#">Consultation</a><br>
+              <a class="text-default footer-font" style="text-decoration: none ; "  href="#">Réseau informatique</a><br>
+              <a class="text-default footer-font"  style="text-decoration: none ; " href="#">Développement de logiciel</a>
+            </div>
+            <div class="col-md-3"><h4 class="text-white">Suivez-nous</h4>
+              <div class="row" style="display: inline;">
+              
+                     <span style=" font-size:3em ;color: #055a6a;"><a href="https://web.facebook.com/Promotic-110617044044402/?modal=admin_todo_tour"> <i class="fab fa-facebook-f fa-spin"></i>  </a></span>
+                     <span style="font-size:3em ;color: #055a6a;"><a href="https://twitter.com/@promotic1"><i class="fab fa-twitter fa-spin"></i></a></span>
+                     <span style="font-size:3em ;color: #055a6a;"><a href="https://www.youtube.com/channel/UCnTk76X2_7YVPi4yzMx1czA?view_as=subscriber">  <i class="fab fa-youtube fa-spin"></i></a></span>
+                     <span style="font-size:3em ;color: #055a6a;"><a href="https://instagram.com/promotic1"> <i class="fab fa-instagram fa-spin"></i> </a></span>
+                     <span style="font-size:3em ;color: #055a6a;"><a href="https://linkedin.com/promotichaiti"> <i  style="color: #055a6a;" class="fab fa-linkedin fa-spin"></i> </a></span>
+                  
+              </div>
+          
+
+            </div>
+            <br><br>
+            <div class="col-md-12 mt-4">
+              <h6>developped by <span><a class="text-default" href="https://wa.me/50942905423"><strong>Sandtech</strong></a></span>&copy;copyright PROMOTIC,INC</h6>
+            </div>
+      </div>
+  </div>
+  <br><b><br>
+<br>
+</footer>
+
+</body>
+
+
+
+<!--Javascript integration -->
+<!-- JavaScript and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" 
+integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script> -->
+<!-- Local integration for javascript
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script> -->
+
+</html>
